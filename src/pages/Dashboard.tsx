@@ -2,8 +2,10 @@ import Deposit from "../components/Wallet/Deposit";
 
 export default function Dashboard() {
   return (
-    <div>
-      <h1 className="text-xl font-bold">Dashboard</h1>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+      <p className="mb-4">Welcome to your ASA Sports Betting dashboard.</p>
+      {/* Deposit component renders here */}
       <Deposit />
     </div>
   );
