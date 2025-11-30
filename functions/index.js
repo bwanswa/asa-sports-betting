@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const mt = require("./providers/mtmomo");
 const at = require("./providers/airtel");
-
 admin.initializeApp();
 
 const app = express();
