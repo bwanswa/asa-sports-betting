@@ -9,13 +9,14 @@ export default function App() {
       <nav className="flex gap-4 mb-4">
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
-        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/Dashboard">Dashboard</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );
 }
+
